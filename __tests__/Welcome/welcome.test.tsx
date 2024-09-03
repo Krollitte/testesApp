@@ -14,5 +14,21 @@ describe("Welcome component teste", () => {
     fireEvent.press(button);
 
     expect(getByText("Welcome Matheus")).toBeTruthy();
+    expect(handleGetUserMock).toHaveBeenCalled();
+  });
+
+  it("should not display welcome message when input is empty and login button is pressed", () => {
+    const handleGetUserMock = jest.fn();
+    const { queryByText, getByText } = render(
+      <Welcome handleGetUser={handleGetUserMock} />
+    );
+
+    const loginButton = getByText("Login");
+    fireEvent.press(loginButton);
+
+    const message = queryByText(/Bem vindo/);
+    expect(message).toBeNull();
+
+    expect(handleGetUserMock).not.toHaveBeenCalled();
   });
 });

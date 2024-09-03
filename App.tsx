@@ -28,7 +28,7 @@ export default function App() {
           <Text>+</Text>
         </TouchableOpacity>
       </View>
-      <Welcome handleGetUser={() => console.log("clicou ")} />
+      <Welcome handleGetUser={() => console.log("clicou")} />
     </View>
   );
 }

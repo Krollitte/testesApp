@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1721258233750" clover="3.2.0">
-  <project timestamp="1721258233750" name="All files">
-    <metrics statements="44" coveredstatements="37" conditionals="16" coveredconditionals="13" methods="16" coveredmethods="14" elements="76" coveredelements="64" complexity="0" loc="44" ncloc="44" packages="3" files="7" classes="7"/>
+<coverage generated="1725387312690" clover="3.2.0">
+  <project timestamp="1725387312691" name="All files">
+    <metrics statements="44" coveredstatements="44" conditionals="16" coveredconditionals="16" methods="16" coveredmethods="16" elements="76" coveredelements="76" complexity="0" loc="44" ncloc="44" packages="3" files="7" classes="7"/>
     <package name="testes-app">
-      <metrics statements="6" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="3"/>
+      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
       <file name="App.tsx" path="/Users/ringasd/testes-app/App.tsx">
-        <metrics statements="6" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="3"/>
-        <line num="9" count="6" type="stmt"/>
-        <line num="10" count="6" type="stmt"/>
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+        <line num="9" count="7" type="stmt"/>
+        <line num="10" count="7" type="stmt"/>
         <line num="17" count="1" type="stmt"/>
         <line num="25" count="2" type="stmt"/>
-        <line num="31" count="0" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
         <line num="36" count="1" type="stmt"/>
       </file>
     </package>
     <package name="testes-app.src">
-      <metrics statements="37" coveredstatements="31" conditionals="16" coveredconditionals="13" methods="12" coveredmethods="11"/>
+      <metrics statements="37" coveredstatements="37" conditionals="16" coveredconditionals="16" methods="12" coveredmethods="12"/>
       <file name="Form.tsx" path="/Users/ringasd/testes-app/src/Form.tsx">
         <metrics statements="8" coveredstatements="8" conditionals="6" coveredconditionals="6" methods="3" coveredmethods="3"/>
         <line num="5" count="7" type="stmt"/>
@@ -52,21 +52,21 @@
       </file>
       <file name="Title.tsx" path="/Users/ringasd/testes-app/src/Title.tsx">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="7" count="8" type="stmt"/>
+        <line num="7" count="9" type="stmt"/>
         <line num="9" count="2" type="stmt"/>
       </file>
       <file name="Welcome.tsx" path="/Users/ringasd/testes-app/src/Welcome.tsx">
-        <metrics statements="10" coveredstatements="4" conditionals="4" coveredconditionals="1" methods="2" coveredmethods="1"/>
-        <line num="5" count="6" type="stmt"/>
-        <line num="6" count="6" type="stmt"/>
-        <line num="9" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="10" count="0" type="stmt"/>
-        <line num="11" count="0" type="stmt"/>
-        <line num="13" count="0" type="stmt"/>
-        <line num="14" count="0" type="stmt"/>
-        <line num="15" count="0" type="stmt"/>
-        <line num="18" count="6" type="stmt"/>
-        <line num="34" count="1" type="stmt"/>
+        <metrics statements="10" coveredstatements="10" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+        <line num="5" count="13" type="stmt"/>
+        <line num="6" count="13" type="stmt"/>
+        <line num="9" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="18" count="13" type="stmt"/>
+        <line num="34" count="2" type="stmt"/>
       </file>
     </package>
     <package name="testes-app.src.services">

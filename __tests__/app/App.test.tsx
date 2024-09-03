@@ -28,4 +28,16 @@ describe("App ComponentTests", () => {
     const counterText = getByTestId("counter");
     expect(counterText.props.children).toBe(-1);
   });
+
+  it("should render the welcome component", () => {
+    const { getByText, getByPlaceholderText } = render(<App />);
+    const input = getByPlaceholderText("Digite seu nome...");
+    const loginButton = getByText("Login");
+
+    fireEvent.changeText(input, "Rafael");
+    fireEvent.press(loginButton);
+
+    expect(input).toBeTruthy();
+    expect(loginButton).toBeTruthy();
+  });
 });
